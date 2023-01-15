@@ -3,6 +3,7 @@ print("+ = Adds two number together")
 print("- = Subtracts the second number from the first one")
 print("* = Multiplies both number together")
 print("/ = Divides the first number by the second number")
+print("** = Shows the value for the power of the second number for the first number")
 
 
 num1=input("Enter first number:")
@@ -20,6 +21,9 @@ elif sign=="*":
 
 elif sign=="/":
     print(int (num1) / int (num2))
+
+elif sign=="**":
+    print(int (num1) ** int (num2))
 
 else:
     print("Syntax Error")
